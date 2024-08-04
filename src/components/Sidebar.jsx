@@ -13,8 +13,8 @@ const Sidebar = ({ channels }) => {
           </li>
         ))}
       </ul>
-      <Link to="/create-channel" className="create-channel">
-        Create Channel
+      <Link className="create-channel" to="/create-channel">
+        + Create Channel
       </Link>
     </div>
   );

@@ -1,8 +1,23 @@
-# React + Vite
+# My Slack Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un clon de Slack desarrollado utilizando React.js y Vite.js. Proporciona funcionalidades básicas de chat y gestión de canales similares a las de Slack.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualización de canales y mensajes.
+- Creación de nuevos canales.
+- Interfaz responsiva y adaptativa.
+- Enrutamiento utilizando react-router-dom.
+- Estilos CSS utilizando módulos para componentes específicos.
+
+## Tecnologías Utilizadas
+
+- React.js
+- Vite.js
+- CSS (con media queries para responsividad)
+- react-router-dom para enrutamiento
+- Datos cargados desde un archivo JSON estático (`data.json`)
+
+## Dicultades
+
+- Media queries
