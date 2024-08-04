@@ -1,0 +1,21 @@
+.create-channel-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.create-channel-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.create-channel-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7289da;
+  color: white;
+  cursor: pointer;
+}
