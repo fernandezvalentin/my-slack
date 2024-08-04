@@ -16,8 +16,6 @@ body {
   padding: 20px;
 }
 
-/* Media Queries */
-
 @media (max-width: 1200px) {
   .container {
     max-width: 1000px;

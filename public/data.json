@@ -1,0 +1,37 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "name": "#general",
+      "messages": [
+        {
+          "sender": "Gonzalo",
+          "text": "¡Bienvenidos al canal general!",
+          "timestamp": "2024-08-03T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "#tareas",
+      "messages": [
+        {
+          "sender": "Emilia",
+          "text": "Este canal es solo para tareas, chicos.",
+          "timestamp": "2024-08-03T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "#consultas",
+      "messages": [
+        {
+          "sender": "Francisco",
+          "text": "Buenas! Saben en que fecha se entrega el TP?",
+          "timestamp": "2024-08-03T12:00:00Z"
+        }
+      ]
+    }
+  ]
+}

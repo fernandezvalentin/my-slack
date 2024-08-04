@@ -19,3 +19,17 @@
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  .create-channel-form {
+    padding: 10px;
+  }
+
+  .create-channel-form input {
+    padding: 8px;
+  }
+
+  .create-channel-form button {
+    padding: 8px;
+  }
+}

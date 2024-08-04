@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "../components/Sidebar";
 import Channel from "../components/Channel";
-import data from "../data.json";
+import data from "../../public/data.json";
 import "./Home.css";
 
 const Home = () => {

@@ -19,20 +19,35 @@
   border-radius: 5px;
 }
 
+.message-sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  margin-bottom: 5px;
+}
+
+.message-timestamp {
+  font-size: 0.8em;
+  color: #888;
+  text-align: right;
+}
+
 @media (max-width: 1200px) {
-  .channels {
+  .channel {
     padding: 15px;
   }
 }
 
 @media (max-width: 768px) {
-  .channels {
+  .channel {
     padding: 10px;
   }
 }
 
 @media (max-width: 480px) {
-  .channels {
+  .channel {
     padding: 5px;
   }
 }

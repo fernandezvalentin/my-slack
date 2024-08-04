@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ChatFooter from "./ChatFooter";
 import "./Chat.css";
 
@@ -8,7 +8,11 @@ const Chat = ({ messages, addMessage }) => {
       <div className="messages">
         {messages.map((message, index) => (
           <div key={index} className="message">
-            {message}
+            <div className="message-sender">{message.sender}</div>
+            <div className="message-text">{message.text}</div>
+            <div className="message-timestamp">
+              {new Date(message.timestamp).toLocaleString()}
+            </div>
           </div>
         ))}
       </div>

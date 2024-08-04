@@ -21,3 +21,23 @@
   color: white;
   cursor: pointer;
 }
+
+.chat-footer button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .chat-footer {
+    flex-direction: column;
+  }
+
+  .chat-footer input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .chat-footer button {
+    padding: 10px;
+  }
+}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "../components/Sidebar";
 import CreateChannel from "../components/CreateChannel";
-import data from "../data.json";
+import data from "../../public/data.json";
 import "./CreateChannelPage.css";
 
 const CreateChannelPage = () => {

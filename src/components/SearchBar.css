@@ -10,3 +10,13 @@
   border: none;
   border-radius: 5px;
 }
+
+@media (max-width: 480px) {
+  .search-bar {
+    padding: 5px;
+  }
+
+  .search-bar input {
+    padding: 8px;
+  }
+}
